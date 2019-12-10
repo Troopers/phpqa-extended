@@ -1,4 +1,4 @@
-FROM jakzal/phpqa:php7.3-alpine
+FROM jakzal/phpqa:1.24.4-php7.3-alpine
 
 RUN set -ex \
     && apk add --no-cache --virtual .phpize-deps $PHPIZE_DEPS imagemagick-dev libtool \
